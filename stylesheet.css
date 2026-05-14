@@ -1,0 +1,109 @@
+
+body{
+    font-family:'Courier New', Courier, monospace;
+margin: 0;
+background-color: black;
+color: white;
+}
+
+main {
+  background-color: black;
+}
+
+h1, h2 {
+  color: white;
+}
+
+a, button {
+  color: white ;
+  border-color: white ;
+}
+
+a:hover, button:hover {
+  color: white ;
+  border-color: white ;
+}
+
+
+li a {
+    color: white;
+    text-decoration: none;
+    max-width: fit-content;
+}
+
+p{
+    font-size: large;
+}
+
+
+.thumbnail{
+    max-width: 100%;
+    height: auto;
+    justify-self: center;
+    transition: transform 0.25s ease-in-out;
+}
+
+.thumbnail:hover{
+    transform: scale(110%);
+}
+
+.row{
+    justify-content: center;
+}
+
+.gallery-header{
+    text-align: center;
+    margin: 20px;
+}
+
+.welcome{
+    text-align: center;
+    margin: 20px;
+    font-size: 150px;
+}
+.header-text{
+    color:white
+}
+
+.navbar-custom {
+  background-color: black;
+  border: 1px solid white;
+}
+
+.navbar-brand, .nav-link {
+  color: white;
+}
+
+.nav-link:hover {
+  font-weight: 900;
+  color: white;
+}
+
+.navbar-toggler {
+  border-color: white;
+}
+
+.active {
+  font-weight: 900;
+}
+
+
+
+@media (max-width: 1200px){
+ .welcome{
+    text-align: center;
+    margin: 20px;
+    font-size: 80px;
+}
+
+}
+
+
+@media (max-width: 600px){
+ .welcome{
+    text-align: center;
+    margin: 20px;
+    font-size: 60px;
+}
+
+}
